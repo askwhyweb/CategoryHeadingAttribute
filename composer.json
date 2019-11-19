@@ -1,0 +1,22 @@
+{
+    "name": "orvisoft/module-categoryheading",
+    "description": "This module helps to create Category headings",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "farhan@orvisoft.com",
+            "name": "Farhan Islam"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "OrviSoft\\CategoryHeading\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
